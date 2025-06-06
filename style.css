@@ -1,0 +1,49 @@
+/* to delete browser sittings */
+*{
+  margin: 0;
+  padding: 0;
+}
+/* to make dark mode */
+body{
+ background-color: #222;
+  color: #fff;
+  font-family: system-ui;
+}
+/* center all project */
+.crud{
+  width: 80%;
+  margin: auto;
+}
+/* head division */
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+/* input division */
+input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #111;
+  margin: 4px 0;
+  border-radius: 4px;
+  padding: 4px;
+  color: #fff;
+}
+input:focus{
+  background: #000;
+  transform: scale(1.1);
+}
+.price input{
+  width: 20%;
+}
+#total{
+  background: #e90f0f;
+  padding: 5px 2px ;
+  border-radius: 4px;
+}
+#total::before{
+  content:"total:" ;
+}
